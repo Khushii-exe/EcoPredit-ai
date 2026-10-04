@@ -1,0 +1,38 @@
+from pydantic import BaseModel
+
+class EnergyInput(BaseModel):
+    lights: float
+    T1: float
+    RH_1: float
+    T2: float
+    RH_2: float
+    T3: float
+    RH_3: float
+    T4: float
+    RH_4: float
+    T5: float
+    RH_5: float
+    T6: float
+    RH_6: float
+    T7: float
+    RH_7: float
+    T8: float
+    RH_8: float
+    T9: float
+    RH_9: float
+    T_out: float
+    Press_mm_hg: float
+    RH_out: float
+    Windspeed: float
+    Visibility: float
+    Tdewpoint: float
+    rv1: float
+    rv2: float
+    hour: int
+    day_of_week: int
+    month: int
+    is_weekend: int
+    Appliances_lag_1: float
+    Appliances_lag_2: float
+    Appliances_lag_3: float
+    Appliances_rolling_mean_3: float

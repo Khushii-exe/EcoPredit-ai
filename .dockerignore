@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+.venv
+.git
+.github
+.ipynb_checkpoints
+.DS_Store
+data/
+notebooks/
+prediction_check.py
+tests/

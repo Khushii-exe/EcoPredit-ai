@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ecopredit-ai
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
